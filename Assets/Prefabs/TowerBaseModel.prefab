@@ -139,10 +139,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2547741830935111431}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8727b80d30bf4f84496334858f5fbc75, type: 3}
+  m_Script: {fileID: 11500000, guid: 117dba39935e63c4ba12080e1b2660c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _upgrade: {fileID: 5128137232515774168, guid: e0d52b81c536b394ba7c465ea6e40343, type: 3}
+  _upgrade: {fileID: 2547741830935111431}
 --- !u!135 &3711156248765296960
 SphereCollider:
   m_ObjectHideFlags: 0
