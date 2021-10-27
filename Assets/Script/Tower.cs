@@ -36,12 +36,15 @@ public class Tower : MonoBehaviour
 
     }
 
-    private void OnTriggerEnter(Collider other)
+    public void AddEnemy(Enemy enemy)
     {
-        Enemy enemy = other.GetComponent<Enemy>();
-        if(enemy != null)
-        {
-            enemies.Add(enemy);
-        }
+        enemies.Add(enemy);
     }
+
+    public void RemoveEnemy(Enemy enemy)
+    {
+        enemies.Remove(enemy);
+    }
+
+    
 }
