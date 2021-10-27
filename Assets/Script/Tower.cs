@@ -11,7 +11,7 @@ public class Tower : MonoBehaviour
     private float fireRate { get; set; } = 0.1f;
     private float currentFireRate  { get; set; } = 0.0f;
 
-    private bool canShoot {get;set;} = 0.0f;
+    private bool canShoot {get;set;} = true;
     private List<Enemy> enemies { get; set; } = null; 
     //
 
